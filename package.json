@@ -1,6 +1,6 @@
 {
-  "name": "cordova-plugin-geolocation",
-  "version": "4.1.0",
+  "name": "@cactusoft-ca/cordova-plugin-geolocation",
+  "version": "4.1.1",
   "description": "Cordova Geolocation Plugin",
   "cordova": {
     "id": "cordova-plugin-geolocation",
@@ -10,7 +10,10 @@
       "windows"
     ]
   },
-  "repository": "github:apache/cordova-plugin-geolocation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cactusoft-ca/cordova-plugin-geolocation.git"
+  },
   "bugs": "https://github.com/apache/cordova-plugin-geolocation/issues",
   "keywords": [
     "cordova",
